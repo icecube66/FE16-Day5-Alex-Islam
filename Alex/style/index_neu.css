@@ -1,0 +1,12 @@
+#canvas {
+  float: left;
+  width: 180px;
+}
+
+#canvas img {
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 15px;
+  z-index: 1;
+}
+/*# sourceMappingURL=index_neu.css.map */
