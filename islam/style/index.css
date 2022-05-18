@@ -1,0 +1,318 @@
+/* First some styles for the body */
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Define font style for the whole page */
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Pages main div container */
+/* Working with fixed width and height */
+.container
+{
+    width: 1920px;
+    height: 1440px;
+    margin: auto;
+}
+
+/* Here start style for namvigation */
+/* START NAVIGATION */
+.nav
+{
+    width: 100%;
+    height: 5%;
+    background-color: black;
+}
+
+/* For the image LOGO */
+#canvas
+{
+    float: left;
+    width: 180px;
+}
+
+/* LOGO */
+#canvas img
+{
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 15px;
+    z-index: 1;
+}
+
+#user_input
+{
+    width: 1200px;
+    margin: auto;
+}
+
+#user_input input
+{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    top: 15px;
+}
+
+.btn_red
+{
+    float: right;
+}
+
+.btn_red a
+{
+    width: 100px;
+    height: 40px;
+    border-top-left-radius: 20%;
+	border-top-right-radius: 20%;
+	border-bottom-left-radius: 20%;
+	border-bottom-right-radius: 20%;
+    text-align: center;
+    display: block;
+    background-color: #8C181B;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    /* border: 1px solid black; */
+}
+
+.btn_red > a > b
+{
+    position: relative;
+    top: 8px;
+}
+
+.btn1
+{
+    position: relative;
+    right: 50px;
+    bottom: 30px;
+}
+
+.btn2
+{
+    position: relative;
+    right: 100px;
+    bottom: 30px;
+}
+
+.btn_red a:hover
+{
+    background-color: #be4046;
+}
+/* END NAVIGATION */
+
+/* Here is the style for the big hero image */
+/* START HERO IMAGE */
+.hero
+{
+    background-image: url(../img/keyboard.jpg);
+    background-position: bottom;
+    width: 100%;
+    height: 30%;
+    color: white;
+}
+
+.hero h1
+{
+    position: relative;
+    top: 235px;
+    left: 210px;
+    font-size: 3em;
+}
+
+.hero h2
+{
+    position: relative;
+    top: 225px;
+    left: 395px;
+    /* font-size: large; */
+}
+
+/* Image devices style */
+.devices
+{
+    width: 140px;
+    height: 100px;
+}
+
+.devices img
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 200px;
+    left: 395px;
+}
+/* END HERO PART */
+
+/* Style for the main content div */
+/* START MAIN CONTENT PART */
+.main
+{
+    width: 100%;
+    height: 35%;
+    background-color: #1A1818;
+}
+
+.main > h1
+{
+    color: white;
+    font-size: 4em;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    text-align: center;
+    padding-top: 30px;
+    text-shadow: 6px 6px 10px #969696;
+}
+
+/* For the cards I take a class! Alle have the same style! */
+.column
+{
+    position: relative;
+    top: 50px;
+    width: 400px;
+    height: 280px;
+    border-radius: 5%;
+    background-color: #235A8D;
+    color: white;
+    text-align: center;
+    padding-left: 10px;
+    /* border: 1px solid white; */
+}
+
+/* Style buttons */
+.btn a
+{
+    display: block;
+    width: 150px;
+    height: 40px;
+    background-color: #efefef;
+    color: black;
+    text-decoration: none;
+}
+
+.btn a:hover
+{
+    background-color: #999a9e;
+}
+
+.btn > a > p
+{
+    position: relative;
+    top: 10px;
+}
+
+/* Positioning of the button cards */
+.b_left
+{
+    position: relative;
+    left: 120px;
+    top: 5px;
+}
+
+.b_mid
+{
+    position: relative;
+    left: 120px;
+    top: 35px;
+}
+
+.b_right
+{
+    position: relative;
+    left: 120px;
+    top: 65px;
+}
+
+.hline
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+/* Style list elemnts  */
+ul
+{
+    list-style-type:  none;
+    padding: 16px 25px;
+}
+
+ul > li > h2
+{
+    font-weight: lighter;
+}
+
+/* Positioning of the columns */
+#c_left
+{
+    float: left;
+    position: relative;
+    /* right: 20px; */
+    left: 15%;
+}
+
+#c_mid
+{
+    /* margin: auto; */
+    float: left;
+    position: relative;
+    left: 20%;
+}
+
+#c_right
+{
+    float: left;
+    position: relative;
+    left: 25%;
+}
+/* END MAIN CONTENT PART */
+
+/* Last styling of the footer */
+/* START FOOTER */
+.footer
+{
+    width: 100%;
+    height: 18%;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+#codeF
+{
+    position: relative;
+    width: 200px;
+}
+
+#codeF img
+{
+    position: relative;
+    left: 860px;
+    top: 15px;
+    width: 100%;
+    
+}
+
+.hline2
+{
+    width: 40%;
+    margin: auto;
+}
+
+.footer a
+{
+    text-decoration: none;
+    color: #969696;
+    padding: 16px 20px;
+}
+
+.footer a:hover
+{
+    color: #efefef;
+}
+/* END FOOTER PART */
