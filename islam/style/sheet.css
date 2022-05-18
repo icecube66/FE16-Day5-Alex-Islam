@@ -1,0 +1,24 @@
+.btn_red {
+  float: right;
+}
+
+.btn_red a {
+  width: 100px;
+  height: 40px;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  text-align: center;
+  display: block;
+  background-color: #8C181B;
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+}
+
+.btn_red a > b {
+  position: relative;
+  top: 8px;
+}
+/*# sourceMappingURL=sheet.css.map */
